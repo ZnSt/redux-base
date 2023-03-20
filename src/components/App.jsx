@@ -1,3 +1,9 @@
+// import { Counter } from './Counter';
+import { Todo } from './Todo';
 export const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Todo />
+    </div>
+  );
 };
